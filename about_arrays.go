@@ -17,11 +17,11 @@ func aboutArrays() {
 
 	tasty_fruits := fruits[1:3]                           // defining oneself as a variation of another
 	assert(fmt.Sprintf("%T", tasty_fruits) == "[]string") //and get not a simple array as a result
-	assert(tasty_fruits[0] == __string__)                 // slices of arrays share some data
-	assert(tasty_fruits[1] == __string__)                 // albeit slightly askewed
+	assert(tasty_fruits[0] == "orange")                 // slices of arrays share some data
+	assert(tasty_fruits[1] == "mango")                 // albeit slightly askewed
 
-	assert(len(tasty_fruits) == __int__) // its length is manifest
-	assert(cap(tasty_fruits) == __int__) // but its capacity is surprising!
+	assert(len(tasty_fruits) == 2) // its length is manifest
+	assert(cap(tasty_fruits) == 3) // but its capacity is surprising!
 
 	tasty_fruits[0] = "lemon" // are their shared roots truly identical?
 
