@@ -16,7 +16,7 @@ func aboutArrays() {
 	assert(fruits == [4]string{"apple","orange","mango"}) // comparing arrays is not like comparing apples and oranges
 
 	tasty_fruits := fruits[1:3]                           // defining oneself as a variation of another
-	assert(fmt.Sprintf("%T", tasty_fruits) == "[4]string") //and get not a simple array as a result
+	assert(fmt.Sprintf("%T", tasty_fruits) == "[]string") //and get not a simple array as a result
 	assert(tasty_fruits[0] == __string__)                 // slices of arrays share some data
 	assert(tasty_fruits[1] == __string__)                 // albeit slightly askewed
 
