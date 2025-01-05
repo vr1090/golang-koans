@@ -25,7 +25,7 @@ func aboutArrays() {
 
 	tasty_fruits[0] = "lemon" // are their shared roots truly identical?
 
-	assert(fruits[0] == __string__) // has this element remained the same?
+	assert(fruits[0] == "lemon") // has this element remained the same?
 	assert(fruits[1] == __string__) // how about the second?
 	assert(fruits[2] == __string__) // surely one of these must have changed
 	assert(fruits[3] == __string__) // but who can know these things
