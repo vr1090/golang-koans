@@ -47,7 +47,7 @@ func aboutControlFlow() {
 		case true:
 			str = "second"
 		}
-		assert(str == __string__) // in the absence of value, there is truth
+		assert(str == "second") // in the absence of value, there is truth
 	}
 
 	{
@@ -55,7 +55,7 @@ func aboutControlFlow() {
 		for i := 0; i < 5; i++ {
 			n += i
 		}
-		assert(n == __int__) // for can have the structure with which we are all familiar
+		assert(n == 10) // for can have the structure with which we are all familiar
 	}
 
 	{
