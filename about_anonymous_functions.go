@@ -24,6 +24,6 @@ func aboutAnonymousFunctions() {
 	{
 		double := func(x int) int { return x * 2 }
 
-		assert(double(3) == __int__) // they can do anything our hearts desire
+		assert(double(3) == 6) // they can do anything our hearts desire
 	}
 }
