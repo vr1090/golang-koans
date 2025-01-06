@@ -25,7 +25,7 @@ func aboutControlFlow() {
 		} else {
 			str = "or not"
 		}
-		assert(str == __string__) // that is the question
+		assert(str == "to be") // that is the question
 	}
 
 	{
