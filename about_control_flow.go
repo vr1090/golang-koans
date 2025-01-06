@@ -66,6 +66,6 @@ func aboutControlFlow() {
 				break
 			}
 		}
-		assert(n == __int__) // though omitting everything creates an infinite loop
+		assert(n == 32) // though omitting everything creates an infinite loop
 	}
 }
