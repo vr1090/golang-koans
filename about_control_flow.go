@@ -39,7 +39,7 @@ func aboutControlFlow() {
 		case fmt.Sprintf("%s%s", hola1, hola2):
 			str = "senor"
 		}
-		assert(str == __string__) // cases can be of any type, even arbitrary expressions
+		assert(str == "hi") // cases can be of any type, even arbitrary expressions
 
 		switch {
 		case false:
