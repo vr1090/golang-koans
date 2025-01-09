@@ -23,9 +23,9 @@ func aboutMaps() {
 	assert(ages["bob"] == 99) // values can be changed for keys
 
 	ages["steven"] = 77
-	assert(ages[__string__] == 77) // new ones can be added
+	assert(ages["steven"] == 77) // new ones can be added
 
 	delete(ages, "steven")
 	age, ok = ages["steven"]
-	assert(ok == __boolean__) // key/value pairs can be removed
+	assert(ok == false) // key/value pairs can be removed
 }
